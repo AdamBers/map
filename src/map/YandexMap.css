@@ -1,0 +1,11 @@
+/* .add_marker {
+    position: fixed;
+    top: 300px
+} */
+
+.add_button {
+    background-color: blue;
+    font-size: large;
+    position: absolute;
+    top: 300px;
+}

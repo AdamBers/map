@@ -1,0 +1,58 @@
+.left_menu {
+    display: flex;
+    width: 25%;
+    height: calc(100vh - 3px);
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    flex-direction: column;
+    border: 1px solid rgb(172, 169, 165);
+    justify-content: space-between;
+}
+
+.left_menu>* {
+    width: 80%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.add {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(168, 165, 162);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add:hover {
+    background-color: rgb(180, 105, 146);
+    cursor: pointer;
+    color: white;
+}
+
+.add:active {
+    background-color: rgb(153, 89, 124);
+}
+
+* {
+    font-weight: normal;
+}
+
+.select_1, .select_2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(217, 212, 206);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.chosen_address {
+    margin-bottom: 50px;
+}
